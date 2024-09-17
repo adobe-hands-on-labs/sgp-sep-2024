@@ -304,15 +304,18 @@ p, li {
     width: 60px;
     height: auto;
   }
-  /* Modal Style - End */
-    
-  @media (max-width: 1000px) { 
+/* Modal Style - End */
 
-    .modal-content {
-      width: 90%;
-    }
+main .section p {
+  margin: 10px 0;
+}
 
+
+@media (max-width: 1000px) { 
+  .modal-content {
+    width: 90%;
   }
+}
 
 @media (width >= 600px) {
   main .section {
