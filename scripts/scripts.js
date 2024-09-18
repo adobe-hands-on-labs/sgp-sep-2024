@@ -15,6 +15,7 @@ import {
   decorateBlock,
   loadBlock,
 } from './aem.js';
+import modalWindow from './modal.js';
 
 /**
  * Builds hero block and prepends to main in a new section.
